@@ -1,0 +1,10 @@
+<?php
+$a="RBNB";
+$b="a";
+$c="b";
+echo("<br>Value=".$a);
+echo("<br>Value=".$b);
+echo("<br>Value=".$c);
+echo("<br>Value=".$$b);
+echo("<br>Value=".$$c);
+?>

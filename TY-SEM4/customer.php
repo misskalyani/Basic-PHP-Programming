@@ -1,0 +1,10 @@
+<?php
+	$nm=$_POST["t1"];
+	$add=$_POST["t2"];
+	$ph=$_POST["t3"];
+	$g=$_POST["r1"];
+	printf("<br>Name=%s",$nm);
+	printf("<br>Address=%s",$add);
+	printf("<br>Phone=%s",$ph);
+	printf("<br>Gender=%s",$g);
+?>
