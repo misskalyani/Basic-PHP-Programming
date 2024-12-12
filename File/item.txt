@@ -1,0 +1,4 @@
+51 pen 5 10
+12 pencil 10 5
+83 book 2 50
+35 box 1 10

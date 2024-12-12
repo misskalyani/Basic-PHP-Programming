@@ -1,0 +1,11 @@
+<?php
+	$f1=fopen("abc1.txt","r");
+	if($f1==false)
+	{
+		die("FileNotFound");
+	}
+	//if(!$f1)
+	{
+		die("FileNotFound");
+	}
+?>
