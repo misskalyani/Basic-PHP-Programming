@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <roll_no>101</roll_no>
+        <name>John Doe</name>
+        <address>New York, USA</address>
+        <college>ABC University</college>
+        <course>Computer Science</course>
+    </student>
+    <student>
+        <roll_no>102</roll_no>
+        <name>Jane Smith</name>
+        <address>California, USA</address>
+        <college>XYZ College</college>
+        <course>Information Technology</course>
+    </student>
+    <student>
+        <roll_no>103</roll_no>
+        <name>Robert Brown</name>
+        <address>Texas, USA</address>
+        <college>LMN Institute</college>
+        <course>Computer Science</course>
+    </student>
+    <student>
+        <roll_no>104</roll_no>
+        <name>Emily Davis</name>
+        <address>Florida, USA</address>
+        <college>PQR University</college>
+        <course>Electronics</course>
+    </student>
+</students>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>1</id>
+        <name>John Doe</name>
+        <age>20</age>
+        <grade>A</grade>
+    </student>
+    <student>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <age>21</age>
+        <grade>B</grade>
+    </student>
+    <student>
+        <id>3</id>
+        <name>Robert Brown</name>
+        <age>22</age>
+        <grade>A</grade>
+    </student>
+    <student>
+        <id>4</id>
+        <name>Emily Davis</name>
+        <age>19</age>
+        <grade>C</grade>
+    </student>
+    <student>
+        <id>5</id>
+        <name>Michael Wilson</name>
+        <age>23</age>
+        <grade>B</grade>
+    </student>
+</students>

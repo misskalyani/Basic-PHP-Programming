@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <script>
+        window.onload = function() {
+            alert("Hello, Good Morning!");
+        };
+
+        function submitForm() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let age = document.getElementById("age").value;
+            let course = document.getElementById("course").value;
+
+            if (name === "" || email === "" || age === "" || course === "") {
+                alert("Please fill all fields.");
+                return false;
+            }
+
+            alert("Registration Successful!\nName: " + name + "\nEmail: " + email + "\nAge: " + age + "\nCourse: " + course);
+            return false; 
+        }
+    </script>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+    <form onsubmit="return submitForm()">
+        Full Name:<input type="text" id="name"><br>
+        Email :<input type="email" id="email"><br>
+        Age:<input type="number" id="age"><br>
+        Select Course:
+        <select id="course">
+            <option value="">--Select--</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+        </select><br>
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
