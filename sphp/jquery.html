@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<p id="pr">This is a paragraph.</p>
+<button onclick="addText()">Insert Text</button>
+
+<script>
+function addText() {
+    $('#pr').before('<b>adhi chi text </b>');
+    $('#pr').after('<b> nanter chi text</b>');
+}
+</script>
+
+</body>
+</html>

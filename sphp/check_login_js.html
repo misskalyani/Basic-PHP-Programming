@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form onsubmit="check()">
+    Username: <input type="text" id="user"><br>
+    Password: <input type="password" id="pass"><br>
+    <input type="submit" value="Login">
+</form>
+
+<script>
+function check() {
+    let user = document.getElementById('user').value;
+    let pass = document.getElementById('pass').value;
+    if(user === "ammu" || pass === "1311")
+    {
+        alert("Welcome");
+    }
+    else
+    {
+        alert("Incorect");
+    }
+}
+</script>
+
+</body>
+</html>
