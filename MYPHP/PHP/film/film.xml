@@ -1,0 +1,32 @@
+<?xml version='1.0' ?>
+<films>
+	<film>
+		<fno>111</fno>
+		<fnm>xxx</fnm>
+		<dnm>gggg</dnm>
+		<pnm>yyy</pnm>
+		<ry>1900</ry>
+		<an>tttt</an>
+		<bget>120000</bget>
+	</film>
+	<film>
+		<fno>111</fno>
+		<fnm>xxx</fnm>
+		<dnm>gggg</dnm>
+		<pnm>yyy</pnm>
+		<ry>1900</ry>
+		<an>tttt</an>
+		<bget>120000</bget>
+	</film>
+	<film>
+		<fno>111</fno>
+		<fnm>xxx</fnm>
+	        <dnm>gggg</dnm>
+		<pnm>yyy</pnm>
+		<ry>1900</ry>
+		<an>tttt</an>
+		<bget>120000</bget>
+	</film>
+
+	
+</films>

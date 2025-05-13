@@ -1,0 +1,8 @@
+       
+<html>
+	<!--
+		Q. 1) Write a Javascript program to accept name of student, change font color to red, font size to 18 if 
+		student name is present otherwise on clicking on empty text box display image which changes its size 
+		(Use onblur, onload, onmousehover, onmouseclick, onmouseup) 
+	--!>
+<head>

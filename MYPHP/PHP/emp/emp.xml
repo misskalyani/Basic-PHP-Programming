@@ -1,0 +1,21 @@
+<?xml version='1.0' ?>
+<employees>
+	<emp>
+		<eno>     111</eno>
+		<enm>om</enm>
+		<sal>2000</sal>
+		<des>hr</des>
+	</emp>
+	<emp>
+		<eno>222</eno>
+		<enm>sai</enm>
+		<sal>4000</sal>
+		<des>mr</des>
+	</emp>
+	<emp>
+		<eno>666</eno>
+		<enm>ram</enm>
+		<sal>6700</sal>
+		<des>hr</des>
+	</emp>
+</employees>

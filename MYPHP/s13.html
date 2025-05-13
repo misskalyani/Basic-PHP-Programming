@@ -1,0 +1,35 @@
+
+<html>
+	<!--
+		Q. 1) Write a Java Script Program to print Fibonacci numbers on onclick event.  
+	--!>
+
+<head>
+       <script>
+        function generateFibonacci(n) 
+	{
+            fib = [0, 1];
+            for (i = 2; i < n; i++)
+	    {
+                fib.push(fib[i - 1] + fib[i - 2]);
+            }
+            return fib;
+        }
+
+        function displayFibonacci()
+	 {
+            num = document.getElementById("numInput").value;
+            num = parseInt(num);
+            fibSequence = generateFibonacci(num);
+            document.write("Fibbonacci Sequence is "+fibSequence);
+        }
+    </script>
+</head>
+<body>
+
+        <h2>Fibonacci Sequence Generator</h2>
+        <input type="number" id="numInput">
+        <button onclick="displayFibonacci()">Generate</button>
+  
+ </body>
+</html>

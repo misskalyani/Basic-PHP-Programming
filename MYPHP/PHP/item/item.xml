@@ -1,0 +1,15 @@
+<?xml version='1.0' ?>
+<Items>
+	<Item>
+		<Ino>  111 </Ino>
+		<Inm>  Dove </Inm>
+		<desc>  Shampooo  </desc>
+		<price> 670</price>
+	</Item>
+	<Item>
+		<Ino>  111 </Ino>
+		<Inm>  Dove </Inm>
+		<desc>  Shampooo  </desc>
+		<price> 670</price>
+	</Item>
+</Items>

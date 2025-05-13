@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+    <Item>
+        <ItemName>Notebook</ItemName>
+        <ItemRate>5.99</ItemRate>
+        <ItemQuantity>10</ItemQuantity>
+    </Item>
+    <Item>
+        <ItemName>Pen</ItemName>
+        <ItemRate>1.50</ItemRate>
+        <ItemQuantity>25</ItemQuantity>
+    </Item>
+    <Item>
+        <ItemName>Stapler</ItemName>
+        <ItemRate>7.25</ItemRate>
+        <ItemQuantity>5</ItemQuantity>
+    </Item>
+    <Item>
+        <ItemName>Desk Lamp</ItemName>
+        <ItemRate>15.99</ItemRate>
+        <ItemQuantity>3</ItemQuantity>
+    </Item>
+    <Item>
+        <ItemName>USB Drive</ItemName>
+        <ItemRate>12.50</ItemRate>
+        <ItemQuantity>8</ItemQuantity>
+    </Item>
+</Items>

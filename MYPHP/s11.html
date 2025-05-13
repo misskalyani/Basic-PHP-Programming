@@ -1,0 +1,46 @@
+<html>
+	<!--
+		Q. 1) Write a Java Script Program to show Hello Good Morning message onload event using alert box 
+		and display the Student registration from. 
+
+		SLIP 12 same ha Question
+	--!>
+<head>
+	<script>
+		window.onload=function(){
+		alert("Hello ,Good Morning..!")};
+		
+		function submitForm()
+		{
+			name=document.getElementById("name").value;
+			email=document.getElementById("email").value;
+			age=document.getElementById("age").value;
+			course=document.getElementById("course").value;
+			
+			alert("Registartion Succesfull...!"+"\n\n"+"name = "+name+"\n"+"email = "+email+"\n"+"age = "+age+"\n"+"course = "+course);
+			return false;
+		}
+	</script>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+    <form onsubmit="return submitForm()">
+        Full Name:
+	<input type="text" id="name"><br>
+        Email :
+	<input type="email" id="email"><br>
+        Age:
+	<input type="number" id="age"><br>
+        Select Course:
+        <select id="course">
+         
+            <option value="Computer Science">Computer Science</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+        </select><br>
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>

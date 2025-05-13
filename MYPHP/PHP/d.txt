@@ -1,0 +1,75 @@
+Slip 24 - C) Write a PHP script to accept username and password. If in the first three chances, username and password entered is correct, then display second form, otherwise display error message.
+Solution:
+HTML file :
+
+<html>
+<head>
+<script>
+                function getans()
+                {
+                                st1=document.getElementById('txtname').value;
+                                st2=document.getElementById('txtpass').value;
+                                ob=new XMLHttpRequest();
+             
+                                ob.onreadystatechange=function()
+                                {
+                                                if(ob.readyState==4 && ob.status==200)
+                                                {
+                                                                if(ob.responseText==3)
+                                                                {
+                                                                                alert("sorry you lost the chances to login");
+                                                                                location="error.html";
+                                                                }
+                                                                else if(ob.responseText=="correct")
+                                                                {
+                                                                                alert("you entered correct details");
+                                                                }
+                                                                else alert(ob.responseText);   
+                                                }                                           
+                                }           
+                                ob.open("GET","slip8_Q2.php?n="+st1+"&p="+st2);
+                                ob.send();
+                }
+</script>
+</head>
+<body>
+<input type=text id=txtname placeholder="username"></br>
+<input type=password id=txtpass placeholder="password"></br>
+<input type="button" onclick="getans()" value="Login">
+
+</body>
+</html>
+
+HTML file :  error.html
+
+<html>
+<body>
+<h1>YOu lossed the chances of login</h1>
+</body>
+</html>
+
+PHP file :
+<?php
+                session_start();
+                $nm=$_GET['n'];
+                $ps=$_GET['p'];
+                if($nm==$ps)
+                {
+                                echo "correct";
+                }
+                else if(isset($_SESSION['cnt']))
+                                                {
+                                                                $x=$_SESSION['cnt'];
+                                                                $x=$x+1;
+                                                                $_SESSION['cnt']=$x;
+                                                                echo $_SESSION['cnt'];
+                                                             
+                                                                if($_SESSION['cnt']>=3)
+                                                                $_SESSION['cnt']=1;
+                                                }
+                                                else
+                                                {
+                                                                $_SESSION['cnt']=1;
+                                                                echo "1";
+                                                }
+?>

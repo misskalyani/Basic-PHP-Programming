@@ -1,0 +1,31 @@
+<?xml version='1.0' ?>
+<books>
+	<book>
+		<code>111</code>
+		<bnm>  PHP </bnm>
+		<author>Om</author>
+		<pub>  vision  </pub>
+		<price> 670</price>
+	</book>
+	<book>
+		<code>  161 </code>
+		<bnm>  java </bnm>
+		<author>ram</author>
+		<pub>  nirali  </pub>
+		<price> 120</price>
+	</book>
+	<book>
+		<code>  121 </code>
+		<bnm>  cpp </bnm>
+		<author>sham</author>
+		<pub>  vision  </pub>
+		<price> 100</price>
+	</book>
+	<book>
+		<code>  221 </code>
+		<bnm>  web </bnm>
+		<author>sai</author>
+		<pub>  vision  </pub>
+		<price> 230</price>
+	</book>
+</books>
